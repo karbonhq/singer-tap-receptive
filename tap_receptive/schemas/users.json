@@ -1,0 +1,86 @@
+{
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "id": {
+      "type": [
+        "integer"
+      ]
+    },
+    "account_id": {
+      "type": [
+        "null",
+        "integer"
+      ]
+    },
+    "churned": {
+      "type": [
+        "null",
+        "boolean"
+      ]
+    },
+    "email": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "last_seen": {
+      "type": [
+        "null",
+        "integer"
+      ],
+      "format": "date-time"
+    },
+    "name": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "return_url": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "roles": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "validated": {
+      "type": [
+        "null",
+        "boolean"
+      ]
+    },
+    "vendor_id": {
+      "type": [
+        "null",
+        "integer"
+      ]
+    },
+    "external_id": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "created_at": {
+      "type": [
+        "null",
+        "integer"
+      ],
+      "format": "date-time"
+    },
+    "updated_at": {
+      "type": [
+        "null",
+        "integer"
+      ],
+      "format": "date-time"
+    }
+  }
+}

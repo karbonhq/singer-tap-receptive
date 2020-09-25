@@ -1,0 +1,178 @@
+{
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "id": {
+      "type": [
+        "integer"
+      ]
+    },
+    "title": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "description": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "resolution": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "status": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "vendor_id": {
+      "type": [
+        "null",
+        "integer"
+      ]
+    },
+    "created_by_user_id": {
+      "type": [
+        "null",
+        "integer"
+      ]
+    },
+    "updated_by_user_id": {
+      "type": [
+        "null",
+        "integer"
+      ]
+    },
+    "resolved_by_user_id": {
+      "type": [
+        "null",
+        "integer"
+      ]
+    },
+    "app_url": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "form_entry": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "created_at": {
+      "type": [
+        "null",
+        "integer"
+      ],
+      "format": "date-time"
+    },
+    "updated_at": {
+      "type": [
+        "null",
+        "integer"
+      ],
+      "format": "date-time"
+    },
+    "declined_at": {
+      "type": [
+        "null",
+        "integer"
+      ],
+      "format": "date-time"
+    },
+    "developing_at": {
+      "type": [
+        "null",
+        "integer"
+      ],
+      "format": "date-time"
+    },
+    "planned_at": {
+      "type": [
+        "null",
+        "integer"
+      ],
+      "format": "date-time"
+    },
+    "released_at": {
+      "type": [
+        "null",
+        "integer"
+      ],
+      "format": "date-time"
+    },
+    "waiting_at": {
+      "type": [
+        "null",
+        "integer"
+      ],
+      "format": "date-time"
+    },
+    "status_changed_at": {
+      "type": [
+        "null",
+        "integer"
+      ],
+      "format": "date-time"
+    },
+    "seen_case": {
+      "type": [
+        "null",
+        "boolean"
+      ]
+    },
+    "is_private": {
+      "type": [
+        "null",
+        "boolean"
+      ]
+    },
+    "effort": {
+      "type": [
+        "null",
+        "integer"
+      ]
+    },
+    "products": {
+      "type": [
+        "null",
+        "array"
+      ],
+      "items": {
+        "type": [
+          "string"
+        ]
+      }
+    },
+    "groups": {
+      "type": [
+        "null",
+        "array"
+      ],
+      "items": {
+        "type": [
+          "string"
+        ]
+      }
+    },
+    "uploads": {
+      "type": [
+        "null",
+        "array"
+      ],
+      "items": {
+        "type": [
+          "string"
+        ]
+      }
+    }
+  }
+}
